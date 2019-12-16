@@ -13,6 +13,10 @@ class SearchResultController {
 	// https://itunes.apple.com/search?=entity=software&term=garageband
 	let baseURL = URL(string: "https://itunes.apple.com/search")!
     var searchResults: [SearchResult] = []
+
+	
+
+
     
     func performSearch(for searchTerm: String, resultType: ResultType, completion: @escaping () -> Void) {
         
