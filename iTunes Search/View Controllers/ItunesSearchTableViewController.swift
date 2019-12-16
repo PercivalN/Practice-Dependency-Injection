@@ -10,11 +10,6 @@ import UIKit
 
 class ItunesSearchTableViewController: UITableViewController, UISearchBarDelegate {
 
-    let searchResultController = SearchResultController()
-
-    @IBOutlet weak var resultTypeSegmentedControl: UISegmentedControl!
-    @IBOutlet weak var searchBar: UISearchBar!
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -62,4 +57,12 @@ class ItunesSearchTableViewController: UITableViewController, UISearchBarDelegat
 
         return cell
     }
+
+
+    let searchResultController = SearchResultController()
+    
+    @IBOutlet weak var resultTypeSegmentedControl: UISegmentedControl!
+    @IBOutlet weak var searchBar: UISearchBar!
+    
+
 }

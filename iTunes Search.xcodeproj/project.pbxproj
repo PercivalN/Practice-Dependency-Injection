@@ -16,15 +16,11 @@
 		46BF02432117E01600A24DE5 /* ItunesSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF02422117E01600A24DE5 /* ItunesSearchTableViewController.swift */; };
 		46BF02452117E36400A24DE5 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF02442117E36400A24DE5 /* ResultType.swift */; };
 		46BF02472117E37000A24DE5 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF02462117E36F00A24DE5 /* HTTPMethod.swift */; };
-		DDBC5D2323A7FB0B0063CDB3 /* NetworkDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC5D2223A7FB0B0063CDB3 /* NetworkDataLoader.swift */; };
-		DDBC5D2723A7FC010063CDB3 /* URLSession+NetworkDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC5D2623A7FC010063CDB3 /* URLSession+NetworkDataLoader.swift */; };
-		DDBC5D3723A7FDC80063CDB3 /* SearchResultControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC5D3623A7FDC80063CDB3 /* SearchResultControllerTests.swift */; };
-		DDBC5D3923A8022A0063CDB3 /* MockDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC5D3823A8022A0063CDB3 /* MockDataLoader.swift */; };
-		DDBC5D3B23A803770063CDB3 /* MockJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC5D3A23A803770063CDB3 /* MockJSON.swift */; };
+		DD689A8823A83F4F00590E71 /* SearchResultControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD689A8723A83F4F00590E71 /* SearchResultControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DDBC5D3123A7FD6E0063CDB3 /* PBXContainerItemProxy */ = {
+		DD689A8223A83E9400590E71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46BF021F2117D59500A24DE5 /* Project object */;
 			proxyType = 1;
@@ -45,13 +41,9 @@
 		46BF02422117E01600A24DE5 /* ItunesSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesSearchTableViewController.swift; sourceTree = "<group>"; };
 		46BF02442117E36400A24DE5 /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
 		46BF02462117E36F00A24DE5 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
-		DDBC5D2223A7FB0B0063CDB3 /* NetworkDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataLoader.swift; sourceTree = "<group>"; };
-		DDBC5D2623A7FC010063CDB3 /* URLSession+NetworkDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+NetworkDataLoader.swift"; sourceTree = "<group>"; };
-		DDBC5D2C23A7FD6E0063CDB3 /* SearchResultControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchResultControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDBC5D3023A7FD6E0063CDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDBC5D3623A7FDC80063CDB3 /* SearchResultControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultControllerTests.swift; sourceTree = "<group>"; };
-		DDBC5D3823A8022A0063CDB3 /* MockDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataLoader.swift; sourceTree = "<group>"; };
-		DDBC5D3A23A803770063CDB3 /* MockJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockJSON.swift; sourceTree = "<group>"; };
+		DD689A7D23A83E9400590E71 /* iTunes SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iTunes SearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD689A8123A83E9400590E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD689A8723A83F4F00590E71 /* SearchResultControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +54,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDBC5D2923A7FD6E0063CDB3 /* Frameworks */ = {
+		DD689A7A23A83E9400590E71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				46BF02292117D59500A24DE5 /* iTunes Search */,
-				DDBC5D2D23A7FD6E0063CDB3 /* SearchResultControllerTests */,
+				DD689A7E23A83E9400590E71 /* iTunes SearchTests */,
 				46BF02282117D59500A24DE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				46BF02272117D59500A24DE5 /* iTunes Search.app */,
-				DDBC5D2C23A7FD6E0063CDB3 /* SearchResultControllerTests.xctest */,
+				DD689A7D23A83E9400590E71 /* iTunes SearchTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,7 +85,6 @@
 		46BF02292117D59500A24DE5 /* iTunes Search */ = {
 			isa = PBXGroup;
 			children = (
-				DDBC5D2123A7FAC70063CDB3 /* Helpers */,
 				46BF024A2117E4E400A24DE5 /* Models */,
 				46BF024C2117E4F400A24DE5 /* Model Controllers */,
 				46BF02492117E4DF00A24DE5 /* View Controllers */,
@@ -148,24 +139,13 @@
 			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
-		DDBC5D2123A7FAC70063CDB3 /* Helpers */ = {
+		DD689A7E23A83E9400590E71 /* iTunes SearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				DDBC5D2223A7FB0B0063CDB3 /* NetworkDataLoader.swift */,
-				DDBC5D2623A7FC010063CDB3 /* URLSession+NetworkDataLoader.swift */,
+				DD689A8123A83E9400590E71 /* Info.plist */,
+				DD689A8723A83F4F00590E71 /* SearchResultControllerTests.swift */,
 			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		DDBC5D2D23A7FD6E0063CDB3 /* SearchResultControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				DDBC5D3023A7FD6E0063CDB3 /* Info.plist */,
-				DDBC5D3623A7FDC80063CDB3 /* SearchResultControllerTests.swift */,
-				DDBC5D3823A8022A0063CDB3 /* MockDataLoader.swift */,
-				DDBC5D3A23A803770063CDB3 /* MockJSON.swift */,
-			);
-			path = SearchResultControllerTests;
+			path = "iTunes SearchTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,22 +168,22 @@
 			productReference = 46BF02272117D59500A24DE5 /* iTunes Search.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DDBC5D2B23A7FD6E0063CDB3 /* SearchResultControllerTests */ = {
+		DD689A7C23A83E9400590E71 /* iTunes SearchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDBC5D3323A7FD6E0063CDB3 /* Build configuration list for PBXNativeTarget "SearchResultControllerTests" */;
+			buildConfigurationList = DD689A8623A83E9400590E71 /* Build configuration list for PBXNativeTarget "iTunes SearchTests" */;
 			buildPhases = (
-				DDBC5D2823A7FD6E0063CDB3 /* Sources */,
-				DDBC5D2923A7FD6E0063CDB3 /* Frameworks */,
-				DDBC5D2A23A7FD6E0063CDB3 /* Resources */,
+				DD689A7923A83E9400590E71 /* Sources */,
+				DD689A7A23A83E9400590E71 /* Frameworks */,
+				DD689A7B23A83E9400590E71 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DDBC5D3223A7FD6E0063CDB3 /* PBXTargetDependency */,
+				DD689A8323A83E9400590E71 /* PBXTargetDependency */,
 			);
-			name = SearchResultControllerTests;
-			productName = SearchResultControllerTests;
-			productReference = DDBC5D2C23A7FD6E0063CDB3 /* SearchResultControllerTests.xctest */;
+			name = "iTunes SearchTests";
+			productName = "iTunes SearchTests";
+			productReference = DD689A7D23A83E9400590E71 /* iTunes SearchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +200,7 @@
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 1030;
 					};
-					DDBC5D2B23A7FD6E0063CDB3 = {
+					DD689A7C23A83E9400590E71 = {
 						CreatedOnToolsVersion = 11.3;
 						LastSwiftMigration = 1130;
 						TestTargetID = 46BF02262117D59500A24DE5;
@@ -241,7 +221,7 @@
 			projectRoot = "";
 			targets = (
 				46BF02262117D59500A24DE5 /* iTunes Search */,
-				DDBC5D2B23A7FD6E0063CDB3 /* SearchResultControllerTests */,
+				DD689A7C23A83E9400590E71 /* iTunes SearchTests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,7 +237,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDBC5D2A23A7FD6E0063CDB3 /* Resources */ = {
+		DD689A7B23A83E9400590E71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,31 +254,27 @@
 				46BF02452117E36400A24DE5 /* ResultType.swift in Sources */,
 				46BF02412117DC5200A24DE5 /* SearchResultController.swift in Sources */,
 				46BF02472117E37000A24DE5 /* HTTPMethod.swift in Sources */,
-				DDBC5D2723A7FC010063CDB3 /* URLSession+NetworkDataLoader.swift in Sources */,
 				46BF02432117E01600A24DE5 /* ItunesSearchTableViewController.swift in Sources */,
 				46BF023F2117D8FB00A24DE5 /* SearchResult.swift in Sources */,
-				DDBC5D2323A7FB0B0063CDB3 /* NetworkDataLoader.swift in Sources */,
 				46BF022B2117D59500A24DE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDBC5D2823A7FD6E0063CDB3 /* Sources */ = {
+		DD689A7923A83E9400590E71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDBC5D3B23A803770063CDB3 /* MockJSON.swift in Sources */,
-				DDBC5D3923A8022A0063CDB3 /* MockDataLoader.swift in Sources */,
-				DDBC5D3723A7FDC80063CDB3 /* SearchResultControllerTests.swift in Sources */,
+				DD689A8823A83F4F00590E71 /* SearchResultControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DDBC5D3223A7FD6E0063CDB3 /* PBXTargetDependency */ = {
+		DD689A8323A83E9400590E71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 46BF02262117D59500A24DE5 /* iTunes Search */;
-			targetProxy = DDBC5D3123A7FD6E0063CDB3 /* PBXContainerItemProxy */;
+			targetProxy = DD689A8223A83E9400590E71 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -470,14 +446,14 @@
 			};
 			name = Release;
 		};
-		DDBC5D3423A7FD6E0063CDB3 /* Debug */ = {
+		DD689A8423A83E9400590E71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T87Y8KB3R4;
-				INFOPLIST_FILE = SearchResultControllerTests/Info.plist;
+				INFOPLIST_FILE = "iTunes SearchTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -486,7 +462,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.percyNgan.SearchResultControllerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.percyNgan.iTunes-SearchTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -495,14 +471,14 @@
 			};
 			name = Debug;
 		};
-		DDBC5D3523A7FD6E0063CDB3 /* Release */ = {
+		DD689A8523A83E9400590E71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T87Y8KB3R4;
-				INFOPLIST_FILE = SearchResultControllerTests/Info.plist;
+				INFOPLIST_FILE = "iTunes SearchTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -510,7 +486,7 @@
 					"@loader_path/Frameworks",
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.percyNgan.SearchResultControllerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.percyNgan.iTunes-SearchTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -539,11 +515,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDBC5D3323A7FD6E0063CDB3 /* Build configuration list for PBXNativeTarget "SearchResultControllerTests" */ = {
+		DD689A8623A83E9400590E71 /* Build configuration list for PBXNativeTarget "iTunes SearchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDBC5D3423A7FD6E0063CDB3 /* Debug */,
-				DDBC5D3523A7FD6E0063CDB3 /* Release */,
+				DD689A8423A83E9400590E71 /* Debug */,
+				DD689A8523A83E9400590E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
